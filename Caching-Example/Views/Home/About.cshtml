@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Employee Details";
+}
+@*<h2>@ViewData["Title"]</h2>*@
+<h2>Employee Name :</h2>
+<div class="alert alert-info" role="alert">
+    <p style="color:red">@ViewData["Message"]</p>
+</div>
+
+<div class="alert alert-success" role="alert">
+    <h2 class="alert-heading">Explanation:</h2>
+    <p>
+        Above the name of the employee will appear as Malek if it's restored from the cache ,
+        if the cahce is empty , a message will be shown indicating the fact that you've got an empty cache along with
+        an operation of filling the cache with the name "Jhon" ,so if you reload the page , the cache won't be empty
+        anymore , instead it will shows its content which is the name "Jhon".
+    </p>
+    </div>
